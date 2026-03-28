@@ -11,7 +11,7 @@
 ---
 
 ## 🛠️ Tech Stack & Proficiency
-[![My Skills](https://skillicons.dev/icons?i=python,tensorflow,scikitlearn,mysql,git,github,html,css,bootstrap,mongodb,docker,postman&theme=light)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=python,tensorflow,scikitlearn,mysql,git,github,html,css,bootstrap,postman&theme=light)](https://skillicons.dev)
 
 **Engineering Core:**
 - **Machine Learning & AI:** Supervised Learning (XGBoost, Random Forest), Neural Network Architecture, Model Evaluation & Optimization.
@@ -32,7 +32,7 @@
              style="width:100%; height:250px; object-fit:cover; border-radius: 8px;"/>
       </a>
       <br/>
-      <b>Enterprise Web Scraper & Automation</b><br/>
+      <b> Web Scraper & Automation</b><br/>
       <sub><b>The Solution:</b> Built a robust data extraction engine that bypasses modern bot detection to scrape thousands of data points. Engineered a pipeline to parse unstructured HTML into a structured SQL database for real-time analysis.</sub><br/>
       <sub><b>Tech Stack:</b> Python, Selenium, BeautifulSoup, SQL, OOP.</sub><br/>
       🔗 <a href="[LINK_TO_YOUR_REPO]">View Repository</a>
