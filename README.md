@@ -47,7 +47,7 @@
       <b>Predictive Analytics: Survival Engine</b><br/>
       <sub><b>The Solution:</b> Engineered an Object-Oriented ML pipeline featuring a custom Data Leakage prevention architecture. Evaluated multiple algorithms (Logistic, Random Forest, XGBoost) using Scikit-learn GridSearch to deploy the optimal classification model.</sub><br/>
       <sub><b>Tech Stack:</b> Scikit-learn, XGBoost, Pandas, Matplotlib.</sub><br/>
-      🔗 <a href="[LINK_TO_YOUR_REPO]">View Repository</a>
+      🔗 <a href="https://github.com/NaramCharan/Titanic-Survival-Engine-Predictive-Analysis">View Repository</a>
     </td>
   </tr>
 </table>
