@@ -1,4 +1,4 @@
-# 🐐 Hi, I'm Naram Charan
+#  Hi, I'm Naram Charan
 **`AI/ML Engineer | 2nd Year CSE Student`** ## About Me
 - 🎓 2nd-year B.Tech CSE student specializing in AI & ML at GD Goenka University.
 - 🧠 Currently mastering Machine Learning via DeepLearning.AI and studying Data Structures & Algorithms in-depth using Python.
