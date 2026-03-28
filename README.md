@@ -1,12 +1,12 @@
 # Hi, I'm Naram Charan 🚀
-**`AI/ML Engineer | Software Architect `**
+**`AI/ML Engineer | Data Intelligence`**
 
 ## ⚡ About Me
 - 🎓 **Engineering:** 2nd-year B.Tech CSE student specializing in AI & ML at GD Goenka University.
 - 🏗️ **Architecting Intelligent Systems:** Developing end-to-end Machine Learning pipelines and optimizing Data Structures & Algorithms for high-performance computing.
 - 🧪 **Data Intelligence:** Successfully executed 11+ complex data cleaning and preprocessing deployments on [Datawars](https://profiles.datawars.io/naramcharan1).
 - 📜 **Certified Expertise:** Python (Univ. of Michigan), Enterprise SQL (IBM), Generative AI & Prompt Engineering (Google).
-- 💡 **Core Mission:** I don't just write code; I build AI products that tackle messy datasets and automate the "boring" stuff.
+- 💡 **Core Mission:** I don't just write code; I build AI products that tackle messy datasets and automate complex logic.
 
 ---
 
@@ -14,9 +14,9 @@
 [![My Skills](https://skillicons.dev/icons?i=python,tensorflow,scikitlearn,mysql,git,github,html,css,bootstrap,postman&theme=light)](https://skillicons.dev)
 
 **Engineering Core:**
-- **Machine Learning & AI:** Supervised Learning (XGBoost, Random Forest), Neural Network Architecture, Model Evaluation & Optimization.
+- **Machine Learning & AI:** Supervised Learning (XGBoost, Random Forest, Logistic), Neural Network Architectures, Custom Imputation Pipelines.
 - **Data Science:** Pandas, NumPy, Automated EDA (Matplotlib/Seaborn), SQL Schema Design.
-- **Automation & Scrapy:** Advanced Web Scraping (Selenium/BeautifulSoup), API Integration, Headless Browser Automation.
+- **Automation:** Advanced Web Scraping, REST API Integration, Script Automation.
 - **Software Architecture:** Python (Object-Oriented Design), Full-stack Integration, Git Workflow.
 
 ---
@@ -32,9 +32,9 @@
              style="width:100%; height:250px; object-fit:cover; border-radius: 8px;"/>
       </a>
       <br/>
-      <b> Web Scraper & Automation</b><br/>
-      <sub><b>The Solution:</b> Built a robust data extraction engine that bypasses modern bot detection to scrape thousands of data points. Engineered a pipeline to parse unstructured HTML into a structured SQL database for real-time analysis.</sub><br/>
-      <sub><b>Tech Stack:</b> Python, Selenium, BeautifulSoup, SQL, OOP.</sub><br/>
+      <b>Data Extraction & Automation Engine</b><br/>
+      <sub><b>The Solution:</b> Built a robust data extraction engine that parses unstructured HTML into a structured SQL database for real-time analysis. Automated the pipelining of external data directly into accessible datasets.</sub><br/>
+      <sub><b>Tech Stack:</b> Python, Web Scraping, SQL, OOP.</sub><br/>
       🔗 <a href="[LINK_TO_YOUR_REPO]">View Repository</a>
     </td>
     <td align="center" width="50%">
@@ -45,7 +45,7 @@
       </a>
       <br/>
       <b>Predictive Analytics: Survival Engine</b><br/>
-      <sub><b>The Solution:</b> Developed a high-accuracy classification model handling extreme missing-value scenarios and categorical variance. Optimized performance using XGBoost and Scikit-learn GridSearch for hyperparameter tuning.</sub><br/>
+      <sub><b>The Solution:</b> Engineered an Object-Oriented ML pipeline featuring a custom Data Leakage prevention architecture. Evaluated multiple algorithms (Logistic, Random Forest, XGBoost) using Scikit-learn GridSearch to deploy the optimal classification model.</sub><br/>
       <sub><b>Tech Stack:</b> Scikit-learn, XGBoost, Pandas, Matplotlib.</sub><br/>
       🔗 <a href="[LINK_TO_YOUR_REPO]">View Repository</a>
     </td>
@@ -58,10 +58,3 @@
 - 📧 [**charannaram1710@gmail.com**](mailto:charannaram1710@gmail.com)
 - 📊 [**Datawars Profile**](https://profiles.datawars.io/naramcharan1)
 - 💼 [**LinkedIn**](https://www.linkedin.com/in/naramcharan/)
-
-<br/>
-
-![Build Status](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExdXh2ZzdlYWZndHl2dWcyb2RveHlpYzhsand5YmRmaHRwdXhlcGZhZyZlcD12MV9naWZzX3RyZW5kaW5nJmN0PWc/l3q2wJsC23ikJg9xe/giphy.gif)
-<a href="https://www.linkedin.com/in/naramcharan/" target="blank">
-  <img src="https://skillicons.dev/icons?i=linkedin" alt="LinkedIn" />
-</a>
