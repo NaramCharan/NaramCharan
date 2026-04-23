@@ -1,66 +1,69 @@
-# Hi, I'm Naram Charan 👋
-**`ML Practitioner | B.Tech CSE (AI & ML) | Self-Paced Learner`**
+<div align="center">
 
-## ⚡ About Me
-- 🎓 **Engineering:** 2nd-year B.Tech CSE student specializing in AI & ML at GD Goenka University.
-- 🤖 **Machine Learning:** Building end-to-end ML pipelines — from raw data preprocessing to model evaluation and selection across multiple algorithms.
-- 🧮 **Mathematics Foundation:** Completed Mathematics for ML & Data Science (DeepLearning.AI) — Linear Algebra, Calculus, Statistics & Probability.
-- 🧪 **Practice:** Completed 11+ data cleaning and preprocessing exercises on [Datawars](https://profiles.datawars.io/naramcharan1).
-- 📜 **Certifications:** Python (Univ. of Michigan), Enterprise SQL (IBM), Generative AI & Prompt Engineering (Google).
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&pause=1000&color=6E40C9&center=true&vCenter=true&width=700&lines=Hey%2C+I'm+Naram+Charan+%F0%9F%91%8B;ML+Engineer+in+the+Making;End-to-End+Pipelines+%7C+Real+Datasets;Always+Building%2C+Always+Learning" alt="Typing SVG" />
+
+<br/>
+
+**`B.Tech CSE (AI & ML) · GD Goenka University · 2nd Year`**
+
+<p>
+  <a href="mailto:charannaram1710@gmail.com">
+    <img src="https://custom-icon-badges.demolab.com/badge/Email-Contact-blue?style=for-the-badge&logo=gmail&logoColor=white"/>
+  </a>
+  <a href="https://www.linkedin.com/in/naramcharan/">
+    <img src="https://custom-icon-badges.demolab.com/badge/LinkedIn-Profile-blue?style=for-the-badge&logo=linkedin&logoColor=white"/>
+  </a>
+  <a href="https://profiles.datawars.io/naramcharan1">
+    <img src="https://custom-icon-badges.demolab.com/badge/Datawars-Profile-green?style=for-the-badge&logo=databricks&logoColor=white"/>
+  </a>
+</p>
+
+</div>
 
 ---
 
-## 🛠️ Tech Stack & Proficiency
-[![My Skills](https://skillicons.dev/icons?i=python,tensorflow,scikitlearn,mysql,git,github,html,css,bootstrap,flask&theme=light)](https://skillicons.dev)
+## ⚡ About Me
 
-**Engineering Core:**
-- **Machine Learning & AI:** Supervised Learning (Linear & Logistic Regression, Decision Trees, Random Forest, XGBoost), Unsupervised Learning (K-Means, Anomaly Detection), Small Neural Networks for classification (TensorFlow), Custom Preprocessing Pipelines, GridSearchCV.
-- **Data Science:** Pandas, NumPy, Matplotlib, Seaborn, SQL.
-- **Web & Automation:** Flask, HTML, CSS, Bootstrap, Web Scraping, REST APIs.
-- **Software:** Python (OOP), Git, GitHub.
+- 🎓 2nd-year B.Tech CSE student specializing in AI & ML at GD Goenka University  
+- 🤖 Building end-to-end ML pipelines — preprocessing → model training → evaluation  
+- 🧮 Completed Mathematics for ML & Data Science (Linear Algebra, Calculus, Statistics & Probability)  
+- 🧪 Completed 11+ data cleaning and preprocessing exercises on Datawars  
+- 📜 Certifications: Python (Univ. of Michigan), Enterprise SQL (IBM), Generative AI & Prompt Engineering (Google)  
+
+---
+
+## 🧰 Languages and Tools
+
+![Python](https://img.shields.io/badge/python-%23ED8B00.svg?style=for-the-badge&logo=python&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/tensorflow-%23FF6F00.svg?style=for-the-badge&logo=tensorflow&logoColor=white)
+![Scikit-Learn](https://img.shields.io/badge/scikit--learn-%23007ACC.svg?style=for-the-badge&logo=scikit-learn&logoColor=white)
+![MySQL](https://img.shields.io/badge/mysql-%23000000.svg?style=for-the-badge&logo=mysql&logoColor=white)
+![Flask](https://img.shields.io/badge/flask-%23FCC624.svg?style=for-the-badge&logo=flask&logoColor=black)
+![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
+![HTML](https://img.shields.io/badge/html-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+![CSS](https://img.shields.io/badge/css-%2320232a.svg?style=for-the-badge&logo=css3&logoColor=white)
+![Bootstrap](https://img.shields.io/badge/bootstrap-%236DB33F.svg?style=for-the-badge&logo=bootstrap&logoColor=white)
 
 ---
 
 ## 🚀 Projects
 
-<table>
-  <tr>
-    <td align="center" width="50%">
-      <a href="[LINK_TO_YOUR_REPO]">
-        <img src="https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?q=80&w=600&auto=format&fit=crop" 
-             alt="Automated Web Scraper" 
-             style="width:100%; height:250px; object-fit:cover; border-radius: 8px;"/>
-      </a>
-      <br/>
-      <b>Data Extraction & Automation Engine</b><br/>
-      <sub><b>The Solution:</b> Built a data extraction pipeline that parses unstructured HTML into a structured SQL database. Automated the collection and storage of external data for downstream analysis.</sub><br/>
-      <sub><b>Tech Stack:</b> Python, Web Scraping, SQL, OOP.</sub><br/>
-      🔗 <a href="[LINK_TO_YOUR_REPO]">View Repository</a>
-    </td>
-    <td align="center" width="50%">
-      <a href="https://github.com/NaramCharan/Titanic-Survival-Engine-Predictive-Analysis">
-        <img src="https://www.titanicmuseum.org/wp-content/uploads/2019/01/Father-Browne-Titanic-Photo-Collection.jpg" 
-             alt="Titanic Survival Prediction" 
-             style="width:100%; height:250px; object-fit:cover; border-radius: 8px;"/>
-      </a>
-      <br/>
-      <b>Titanic Survival Prediction Engine</b><br/>
-      <sub><b>The Solution:</b> End-to-end OOP classification pipeline with a custom AgeImputer class to prevent data leakage. Compared Logistic Regression, Random Forest, and XGBoost using GridSearchCV with 5-fold CV. Random Forest selected as final model — 85.5% accuracy, 81.1% recall on held-out test set.</sub><br/>
-      <sub><b>Tech Stack:</b> Scikit-learn, XGBoost, Pandas, NumPy.</sub><br/>
-      🔗 <a href="https://github.com/NaramCharan/Titanic-Survival-Engine-Predictive-Analysis">View Repository</a>
-    </td>
-  </tr>
-</table>
+### 🔹 Data Extraction & Automation Engine  
+Built a data extraction pipeline that parses unstructured HTML into a structured SQL database. Automated data collection for downstream analysis.  
+**Tech Stack:** Python, Web Scraping, SQL, OOP  
+🔗 [View Repository](LINK_TO_YOUR_REPO)
+
+---
+
+### 🔹 Titanic Survival Prediction Engine  
+End-to-end OOP classification pipeline with a custom AgeImputer class to prevent data leakage. Compared Logistic Regression, Random Forest, and XGBoost using GridSearchCV.  
+Final Model: Random Forest — 85.5% accuracy, 81.1% recall  
+**Tech Stack:** Scikit-learn, XGBoost, Pandas, NumPy  
+🔗 https://github.com/NaramCharan/Titanic-Survival-Engine-Predictive-Analysis  
 
 ---
 
 ## 📚 Currently Learning
-- 🧠 **Deep Learning Specialization** — DeepLearning.AI / Andrew NG *(In Progress)*
-- 🌲 **Completed:** ML Specialization — Supervised & Unsupervised Learning, Decision Trees, Neural Networks
 
----
-
-## 📬 Connect With Me
-- 📧 [**charannaram1710@gmail.com**](mailto:charannaram1710@gmail.com)
-- 📊 [**Datawars Profile**](https://profiles.datawars.io/naramcharan1)
-- 💼 [**LinkedIn**](https://www.linkedin.com/in/naramcharan/)
+- 🧠 Deep Learning Specialization — Andrew NG *(In Progress)*  
+- 🌲 ML Specialization — Supervised & Unsupervised Learning, Decision Trees, Neural Networks  
