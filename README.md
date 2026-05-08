@@ -24,11 +24,11 @@
 
 ## ⚡ About Me
 
-- 🎓 2nd-year B.Tech CSE student specializing in AI & ML at GD Goenka University  
-- 🤖 Building end-to-end ML pipelines — preprocessing → model training → evaluation  
-- 🧮 Completed Mathematics for ML & Data Science (Linear Algebra, Calculus, Statistics & Probability)  
-- 🧪 Completed 11+ data cleaning and preprocessing exercises on Datawars  
-- 📜 Certifications: Python (Univ. of Michigan), Enterprise SQL (IBM), Generative AI & Prompt Engineering (Google)  
+- 🎓 2nd-year B.Tech CSE student specializing in AI & ML at GD Goenka University
+- 🤖 Building end-to-end ML pipelines — preprocessing → model training → evaluation
+- 🧮 Proficient in Mathematics for ML (Linear Algebra, Calculus, Statistics & Probability)
+- 🧪 Completed 11+ data cleaning and preprocessing exercises on Datawars
+- 📜 Certifications: Python (Univ. of Michigan), Enterprise SQL (IBM), Generative AI & Prompt Engineering (Google), and AI Foundations Associate (Oracle)
 
 ---
 
@@ -40,30 +40,29 @@
 ![MySQL](https://img.shields.io/badge/mysql-%23000000.svg?style=for-the-badge&logo=mysql&logoColor=white)
 ![Flask](https://img.shields.io/badge/flask-%23FCC624.svg?style=for-the-badge&logo=flask&logoColor=black)
 ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
-![HTML](https://img.shields.io/badge/html-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
-![CSS](https://img.shields.io/badge/css-%2320232a.svg?style=for-the-badge&logo=css3&logoColor=white)
-![Bootstrap](https://img.shields.io/badge/bootstrap-%236DB33F.svg?style=for-the-badge&logo=bootstrap&logoColor=white)
+![macOS](https://img.shields.io/badge/macOS-%23000000.svg?style=for-the-badge&logo=apple&logoColor=white)
 
 ---
 
 ## 🚀 Projects
 
-### 🔹 Data Extraction & Automation Engine  
-Built a data extraction pipeline that parses unstructured HTML into a structured SQL database. Automated data collection for downstream analysis.  
-**Tech Stack:** Python, Web Scraping, SQL, OOP  
-🔗 [View Repository](LINK_TO_YOUR_REPO)
+### 🔹 MovieLens Recommendation Engine: Matrix Factorization & Vector Search
+Personalized recommendation pipeline using Deep Matrix Factorization to learn latent user/item embeddings. Optimized inference using a FAISS vector index for near-instant similarity search.
+**Tech Stack:** TensorFlow/Keras, FAISS, Pandas, NumPy
+🔗 [View Repository](https://github.com/NaramCharan/Collaborative_Filtering_Recommendation_system)
 
 ---
 
-### 🔹 Titanic Survival Prediction Engine  
-End-to-end OOP classification pipeline with a custom AgeImputer class to prevent data leakage. Compared Logistic Regression, Random Forest, and XGBoost using GridSearchCV.  
-Final Model: Random Forest — 85.5% accuracy, 81.1% recall  
-**Tech Stack:** Scikit-learn, XGBoost, Pandas, NumPy  
-🔗 https://github.com/NaramCharan/Titanic-Survival-Engine-Predictive-Analysis  
+### 🔹 Titanic Survival Prediction Engine
+End-to-end OOP classification pipeline with a custom AgeImputer class to prevent data leakage. Compared Logistic Regression, Random Forest, and XGBoost to find the most robust production model.
+**Final Model:** Random Forest — 82.7% accuracy
+**Tech Stack:** Scikit-learn, XGBoost, Pandas, NumPy
+🔗 [View Repository](https://github.com/NaramCharan/Titanic-Survival-Engine-Predictive-Analysis)
 
 ---
 
 ## 📚 Currently Learning
 
-- 🧠 Deep Learning Specialization — Andrew NG *(In Progress)*  
-- 🌲 ML Specialization — Supervised & Unsupervised Learning, Decision Trees, Neural Networks  
+- 🧠 **Deep Learning Specialization** — Andrew Ng (In Progress)
+- 🌲 **ML Specialization** — Supervised & Unsupervised Learning, Decision Trees, Neural Networks
+- ⛓️ **MLOps Fundamentals** — Scaling models and tracking experiments
