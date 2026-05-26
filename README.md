@@ -24,11 +24,18 @@
 
 ## ⚡ About Me
 
-- 🎓 2nd-year B.Tech CSE student specializing in AI & ML at GD Goenka University
-- 🤖 Building end-to-end ML pipelines — preprocessing → model training → evaluation
-- 🧮 Proficient in Mathematics for ML (Linear Algebra, Calculus, Statistics & Probability)
-- 🧪 Completed 11+ data cleaning and preprocessing exercises on Datawars
-- 📜 Certifications: Python (Univ. of Michigan), Enterprise SQL (IBM), Generative AI & Prompt Engineering (Google), and AI Foundations Associate (Oracle)
+- 🎓 2nd-Year B.Tech CSE student specializing in **AI & ML** at **GD Goenka University**
+- 🤖 Building **end-to-end Machine Learning pipelines** — preprocessing → training → optimization → evaluation
+- 🧠 Interested in **Machine Learning Engineering, Predictive Systems, and Real-World AI Applications**
+- 🧮 Strong foundation in **Mathematics for ML** (Linear Algebra, Calculus, Statistics & Probability)
+- 🧪 Completed **11+ Data Cleaning & Preprocessing Exercises** on Datawars
+
+### 📜 Certifications
+- **Machine Learning Specialization** — DeepLearning.AI (Andrew Ng)
+- **Python for Everybody** — University of Michigan
+- **Enterprise SQL** — IBM
+- **Generative AI & Prompt Engineering** — Google
+- **AI Foundations Associate** — Oracle
 
 ---
 
@@ -37,6 +44,7 @@
 ![Python](https://img.shields.io/badge/python-%23ED8B00.svg?style=for-the-badge&logo=python&logoColor=white)
 ![TensorFlow](https://img.shields.io/badge/tensorflow-%23FF6F00.svg?style=for-the-badge&logo=tensorflow&logoColor=white)
 ![Scikit-Learn](https://img.shields.io/badge/scikit--learn-%23007ACC.svg?style=for-the-badge&logo=scikit-learn&logoColor=white)
+![XGBoost](https://img.shields.io/badge/XGBoost-Gradient_Boosting-green?style=for-the-badge)
 ![MySQL](https://img.shields.io/badge/mysql-%23000000.svg?style=for-the-badge&logo=mysql&logoColor=white)
 ![Flask](https://img.shields.io/badge/flask-%23FCC624.svg?style=for-the-badge&logo=flask&logoColor=black)
 ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
@@ -46,23 +54,103 @@
 
 ## 🚀 Projects
 
-### 🔹 MovieLens Recommendation Engine: Matrix Factorization & Vector Search
-Personalized recommendation pipeline using Deep Matrix Factorization to learn latent user/item embeddings. Optimized inference using a FAISS vector index for near-instant similarity search.
+<table>
+<tr>
+
+<td width="50%" valign="top">
+
+### 🚢 Titanic Survival Prediction Engine
+
+<p align="center">
+<img src="https://www.titanicmuseum.org/wp-content/uploads/2019/01/Father-Browne-Titanic-Photo-Collection.jpg" width="75%">
+</p>
+
+Production-oriented **ML classification pipeline** using `Pipeline`, `ColumnTransformer`, `SimpleImputer`, `KNNImputer`, and **Optuna optimization** to benchmark Logistic Regression, Random Forest, and XGBoost.
+
+**Selected Model:** Logistic Regression — **85.47% Accuracy**
+
+**Tech Stack:** Scikit-Learn, XGBoost, Optuna, Pandas, NumPy
+
+🔗 **Repository:**  
+<a href="https://github.com/NaramCharan/Titanic-Survival-Engine-Predictive-Analysis">View Repository</a>
+
+</td>
+
+<td width="50%" valign="top">
+
+### 🛒 Ecommerce Customer Churn Prediction
+
+<p align="center">
+<img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=1200&auto=format&fit=crop" width="75%">
+</p>
+
+Built a **real-world ML system** to predict customer churn in e-commerce businesses using modular pipelines, **Optuna hyperparameter tuning**, and comparative model benchmarking.
+
+**Final Model:** XGBoost — **98.28% Accuracy | 94.76% F1 Score**
+
+**Tech Stack:** Scikit-Learn, XGBoost, Optuna, Pandas, NumPy
+
+🔗 **Repository:**  
+<a href="https://github.com/NaramCharan/ecommerce-customer-churn-prediction">View Repository</a>
+
+</td>
+
+</tr>
+
+<tr>
+
+<td width="50%" valign="top">
+
+### 📚 Book Data Scraping & Database Pipeline
+
+<p align="center">
+<img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=1200&auto=format&fit=crop" width="75%">
+</p>
+
+Production-oriented **web scraping pipeline** that extracts structured book data, stores it in **SQLite**, and exports it into **CSV format for future Machine Learning workflows**.
+
+Designed to simulate the **data collection stage of real-world AI/ML systems**.
+
+**Tech Stack:** BeautifulSoup, Requests, SQLAlchemy, SQLite, Pandas
+
+🔗 **Repository:**  
+<a href="https://github.com/NaramCharan/Book-webscrapper">View Repository</a>
+
+</td>
+
+<td width="50%" valign="top">
+
+### 🎬 MovieLens Recommendation Engine
+
+<p align="center">
+<img src="https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?q=80&w=1200&auto=format&fit=crop" width="75%">
+</p>
+
+Personalized recommendation pipeline using **Deep Matrix Factorization** and **FAISS vector search** for efficient recommendation retrieval.
+
 **Tech Stack:** TensorFlow/Keras, FAISS, Pandas, NumPy
-🔗 [View Repository](https://github.com/NaramCharan/Collaborative_Filtering_Recommendation_system)
 
----
+🔗 **Repository:**  
+<a href="https://github.com/NaramCharan/Collaborative_Filtering_Recommendation_system">View Repository</a>
 
-### 🔹 Titanic Survival Prediction Engine
-End-to-end OOP classification pipeline with a custom AgeImputer class to prevent data leakage. Compared Logistic Regression, Random Forest, and XGBoost to find the most robust production model.
-**Final Model:** Random Forest — 82.7% accuracy
-**Tech Stack:** Scikit-learn, XGBoost, Pandas, NumPy
-🔗 [View Repository](https://github.com/NaramCharan/Titanic-Survival-Engine-Predictive-Analysis)
+</td>
+
+</tr>
+</table>
 
 ---
 
 ## 📚 Currently Learning
 
-- 🧠 **Deep Learning Specialization** — Andrew Ng (In Progress)
-- 🌲 **ML Specialization** — Supervised & Unsupervised Learning, Decision Trees, Neural Networks
-- ⛓️ **MLOps Fundamentals** — Scaling models and tracking experiments
+- 🧠 **Deep Learning Specialization** — Andrew Ng *(In Progress)*
+- 🤖 **Machine Learning Engineering** — Feature Engineering, Model Optimization & Evaluation
+- ⚙️ **MLOps Fundamentals** — Model Tracking, Deployment & Experiment Management
+
+---
+
+## 📈 2026 Goals
+
+- 🚀 Build **5+ industry-level ML projects**
+- 🧠 Become internship-ready for **ML/AI Engineering roles**
+- 📦 Learn **Model Deployment (FastAPI, Docker, Cloud)**
+- ⚡ Strengthen **DSA for technical interviews**
