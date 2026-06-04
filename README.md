@@ -4,17 +4,20 @@
 
 <br/>
 
-**`B.Tech CSE (AI & ML) · GD Goenka University · 2nd Year`**
+**`B.Tech CSE (AI & ML) · GD Goenka University · 3rd Year`**
 
 <p>
-  <a href="mailto:charannaram1710@gmail.com">
-    <img src="https://custom-icon-badges.demolab.com/badge/Email-Contact-blue?style=for-the-badge&logo=gmail&logoColor=white"/>
+  <a href="https://naramcharan.me">
+    <img src="https://img.shields.io/badge/Portfolio-naramcharan.me-6E40C9?style=for-the-badge&logo=googlechrome&logoColor=white"/>
   </a>
   <a href="https://www.linkedin.com/in/naramcharan/">
-    <img src="https://custom-icon-badges.demolab.com/badge/LinkedIn-Profile-blue?style=for-the-badge&logo=linkedin&logoColor=white"/>
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
+  </a>
+  <a href="mailto:charannaram1710@gmail.com">
+    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
   </a>
   <a href="https://profiles.datawars.io/naramcharan1">
-    <img src="https://custom-icon-badges.demolab.com/badge/Datawars-Profile-green?style=for-the-badge&logo=databricks&logoColor=white"/>
+    <img src="https://img.shields.io/badge/Datawars-006600?style=for-the-badge&logo=databricks&logoColor=white"/>
   </a>
 </p>
 
@@ -24,11 +27,12 @@
 
 ## ⚡ About Me
 
-- 🎓 2nd-Year B.Tech CSE student specializing in **AI & ML** at **GD Goenka University**
+- 🎓 3rd-Year B.Tech CSE student specializing in **AI & ML** at **GD Goenka University**
 - 🤖 Building **end-to-end Machine Learning pipelines** — preprocessing → training → optimization → evaluation
-- 🧠 Interested in **Machine Learning Engineering, Predictive Systems, and Real-World AI Applications**
+- 🧠 Interested in **Machine Learning Engineering, Time Series Forecasting, and Real-World AI Applications**
 - 🧮 Strong foundation in **Mathematics for ML** (Linear Algebra, Calculus, Statistics & Probability)
 - 🧪 Completed **11+ Data Cleaning & Preprocessing Exercises** on Datawars
+- 🔍 Experienced in **temporal data leakage detection** and building **custom recursive forecasting engines**
 
 ### 📜 Certifications
 - **Machine Learning Specialization** — DeepLearning.AI (Andrew Ng)
@@ -45,98 +49,57 @@
 ![TensorFlow](https://img.shields.io/badge/tensorflow-%23FF6F00.svg?style=for-the-badge&logo=tensorflow&logoColor=white)
 ![Scikit-Learn](https://img.shields.io/badge/scikit--learn-%23007ACC.svg?style=for-the-badge&logo=scikit-learn&logoColor=white)
 ![XGBoost](https://img.shields.io/badge/XGBoost-Gradient_Boosting-green?style=for-the-badge)
+![LightGBM](https://img.shields.io/badge/LightGBM-02569B?style=for-the-badge&logo=lightgbm&logoColor=white)
 ![MySQL](https://img.shields.io/badge/mysql-%23000000.svg?style=for-the-badge&logo=mysql&logoColor=white)
 ![Flask](https://img.shields.io/badge/flask-%23FCC624.svg?style=for-the-badge&logo=flask&logoColor=black)
 ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
-![macOS](https://img.shields.io/badge/macOS-%23000000.svg?style=for-the-badge&logo=apple&logoColor=white)
+
 
 ---
 
-## 🚀 Projects
+## 🚀 Featured Projects
 
-<table>
-<tr>
+### 🛒 [Walmart Store Weekly Sales Forecasting](https://github.com/NaramCharan/Walmart-Store-Weekly-Sales-Forecasting)
+**Global multi-series time series forecasting** across 3,000+ Store–Department combinations using **custom recursive walk-forward engine**.
 
-<td width="50%" valign="top">
+**Key Achievements:**
+- 🔍 Detected & resolved **temporal data leakage** (initial R² 0.98 → 0.95 after fix)
+- 🔄 Built **recursive forecasting from scratch** without libraries
+- 🛠️ Fixed **rolling window leakage** via `shift(1).rolling()`
+- 📊 Proved **feature engineering > model complexity**
 
-### 🚢 Titanic Survival Prediction Engine
+**Final Model:** LightGBM — **95.55% R² | RMSE: 4,646.90**  
+**Tech:** LightGBM, XGBoost, Scikit-Learn, Pandas, NumPy  
 
-<p align="center">
-<img src="https://www.titanicmuseum.org/wp-content/uploads/2019/01/Father-Browne-Titanic-Photo-Collection.jpg" width="75%">
-</p>
+---
 
-Production-oriented **ML classification pipeline** using `Pipeline`, `ColumnTransformer`, `SimpleImputer`, `KNNImputer`, and **Optuna optimization** to benchmark Logistic Regression, Random Forest, and XGBoost.
+### 🛒 [Ecommerce Customer Churn Prediction](https://github.com/NaramCharan/ecommerce-customer-churn-prediction)
+Real-world ML system predicting customer churn using **Optuna hyperparameter optimization** and modular sklearn pipelines.
 
-**Selected Model:** Logistic Regression — **85.47% Accuracy**
+**Final Model:** XGBoost — **98.28% Accuracy | 94.76% F1 Score**  
+**Tech:** XGBoost, Optuna, Scikit-Learn, Pandas  
 
-**Tech Stack:** Scikit-Learn, XGBoost, Optuna, Pandas, NumPy
+---
 
-🔗 **Repository:**  
-<a href="https://github.com/NaramCharan/Titanic-Survival-Engine-Predictive-Analysis">View Repository</a>
+### 🎬 [MovieLens Recommendation Engine](https://github.com/NaramCharan/Collaborative_Filtering_Recommendation_system)
+Personalized recommendation system using **Deep Matrix Factorization** with **FAISS vector search** for efficient retrieval.
 
-</td>
+**Tech:** TensorFlow/Keras, FAISS, Pandas, NumPy  
 
-<td width="50%" valign="top">
+---
 
-### 🛒 Ecommerce Customer Churn Prediction
+### 📚 [Book Data Scraping & Database Pipeline](https://github.com/NaramCharan/Book-webscrapper)
+Production-grade **web scraping pipeline** storing structured data in **SQLite** and exporting to CSV for ML workflows.
 
-<p align="center">
-<img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=1200&auto=format&fit=crop" width="75%">
-</p>
+**Tech:** BeautifulSoup, SQLAlchemy, SQLite, Pandas  
 
-Built a **real-world ML system** to predict customer churn in e-commerce businesses using modular pipelines, **Optuna hyperparameter tuning**, and comparative model benchmarking.
+---
 
-**Final Model:** XGBoost — **98.28% Accuracy | 94.76% F1 Score**
+### 🚢 [Titanic Survival Prediction Engine](https://github.com/NaramCharan/Titanic-Survival-Engine-Predictive-Analysis)
+End-to-end classification pipeline with `ColumnTransformer`, `KNNImputer`, and **Optuna optimization**.
 
-**Tech Stack:** Scikit-Learn, XGBoost, Optuna, Pandas, NumPy
-
-🔗 **Repository:**  
-<a href="https://github.com/NaramCharan/ecommerce-customer-churn-prediction">View Repository</a>
-
-</td>
-
-</tr>
-
-<tr>
-
-<td width="50%" valign="top">
-
-### 📚 Book Data Scraping & Database Pipeline
-
-<p align="center">
-<img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=1200&auto=format&fit=crop" width="75%">
-</p>
-
-Production-oriented **web scraping pipeline** that extracts structured book data, stores it in **SQLite**, and exports it into **CSV format for future Machine Learning workflows**.
-
-Designed to simulate the **data collection stage of real-world AI/ML systems**.
-
-**Tech Stack:** BeautifulSoup, Requests, SQLAlchemy, SQLite, Pandas
-
-🔗 **Repository:**  
-<a href="https://github.com/NaramCharan/Book-webscrapper">View Repository</a>
-
-</td>
-
-<td width="50%" valign="top">
-
-### 🎬 MovieLens Recommendation Engine
-
-<p align="center">
-<img src="https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?q=80&w=1200&auto=format&fit=crop" width="75%">
-</p>
-
-Personalized recommendation pipeline using **Deep Matrix Factorization** and **FAISS vector search** for efficient recommendation retrieval.
-
-**Tech Stack:** TensorFlow/Keras, FAISS, Pandas, NumPy
-
-🔗 **Repository:**  
-<a href="https://github.com/NaramCharan/Collaborative_Filtering_Recommendation_system">View Repository</a>
-
-</td>
-
-</tr>
-</table>
+**Selected Model:** Logistic Regression — **85.47% Accuracy**  
+**Tech:** Scikit-Learn, XGBoost, Optuna, Pandas  
 
 ---
 
@@ -145,12 +108,48 @@ Personalized recommendation pipeline using **Deep Matrix Factorization** and **F
 - 🧠 **Deep Learning Specialization** — Andrew Ng *(In Progress)*
 - 🤖 **Machine Learning Engineering** — Feature Engineering, Model Optimization & Evaluation
 - ⚙️ **MLOps Fundamentals** — Model Tracking, Deployment & Experiment Management
+- 📈 **Advanced Time Series Forecasting** — LSTM, Temporal Fusion Transformers, Probabilistic Forecasting
+
+---
+
+## 🎯 Key Learnings From Recent Projects
+
+- 🔍 **Data Leakage Detection** — Identified temporal and rolling window leakage that artificially inflated model performance
+- 🔄 **Custom Recursive Forecasting** — Built multi-entity walk-forward validation from scratch for time series
+- 🛠️ **Feature Engineering > Model Complexity** — Performance improved more from better features than from algorithm choice
+- 🧪 **Debugging is ML Engineering** — The majority of real ML work is diagnosing pipeline errors, not training models
+- 📊 **LightGBM Dominance** — Consistently outperformed XGBoost and Random Forest in gradient boosting tasks
 
 ---
 
 ## 📈 2026 Goals
 
-- 🚀 Build **5+ industry-level ML projects**
+- 🚀 Build **5+ industry-level ML projects**  (3/5 completed)
 - 🧠 Become internship-ready for **ML/AI Engineering roles**
 - 📦 Learn **Model Deployment (FastAPI, Docker, Cloud)**
 - ⚡ Strengthen **DSA for technical interviews**
+- 🔬 Contribute to **open-source ML libraries**
+
+---
+
+<div align="center">
+
+### 📊 GitHub Stats
+
+<img src="https://github-readme-stats.vercel.app/api?username=NaramCharan&show_icons=true&theme=radical" alt="GitHub Stats" />
+
+### 💻 Most Used Languages
+
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=NaramCharan&layout=compact&theme=radical" alt="Top Languages" />
+
+</div>
+
+---
+
+<div align="center">
+
+**Let's connect and build something amazing together!**
+
+*"Feature engineering beats model complexity. Always."*
+
+</div>
