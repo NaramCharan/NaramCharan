@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 250" width="220" height="250" role="img" aria-label="Iron Man helmet in HUD line art">
+  <title>MARK XLII — HELMET</title>
+
+  <ellipse cx="110" cy="126" rx="98" ry="116" fill="#22d3ee" opacity="0.05"/>
+
+  <!-- ── outer helmet: angular, wide temples, narrow jaw ───── -->
+  <path d="M110 12 L154 26 L174 58 L176 100 L168 136 L154 170 L134 202 L110 228
+           L86 202 L66 170 L52 136 L44 100 L46 58 L66 26 Z"
+        fill="#0b1420" stroke="#22d3ee" stroke-width="2.4" stroke-linejoin="round"/>
+
+  <!-- ── gold faceplate ───────────────────────────────────── -->
+  <path d="M110 30 L146 44 L160 74 L161 108 L154 142 L140 176 L110 206
+           L80 176 L66 142 L59 108 L60 74 L74 44 Z"
+        fill="#ffb23e" opacity="0.15"/>
+  <path d="M110 30 L146 44 L160 74 L161 108 L154 142 L140 176 L110 206
+           L80 176 L66 142 L59 108 L60 74 L74 44 Z"
+        fill="none" stroke="#ffb23e" stroke-width="2" stroke-linejoin="round" opacity="0.9"/>
+
+  <!-- brow ridge — dips at the centre -->
+  <path d="M62 96 L98 88 L110 96 L122 88 L158 96"
+        fill="none" stroke="#ffb23e" stroke-width="3" stroke-linejoin="round" opacity="0.95"/>
+
+  <!-- ── eye slots: outer corner high, tapering down to the nose ── -->
+  <g>
+    <path d="M62 104 L100 120 L98 132 L64 122 Z" fill="#7de7f5" opacity="0.22"/>
+    <path d="M158 104 L120 120 L122 132 L156 122 Z" fill="#7de7f5" opacity="0.22"/>
+    <path d="M66 107 L98 121 L96 129 L67 120 Z" fill="#bdf3fb" stroke="#eafdff" stroke-width="1" stroke-linejoin="round">
+      <animate attributeName="opacity" values="0.7;1;0.7" dur="2.8s" repeatCount="indefinite"/>
+    </path>
+    <path d="M154 107 L122 121 L124 129 L153 120 Z" fill="#bdf3fb" stroke="#eafdff" stroke-width="1" stroke-linejoin="round">
+      <animate attributeName="opacity" values="0.7;1;0.7" dur="2.8s" repeatCount="indefinite"/>
+    </path>
+  </g>
+
+  <!-- nose bridge between the eyes -->
+  <path d="M110 100 V138" fill="none" stroke="#ffb23e" stroke-width="2.2" opacity="0.85"/>
+  <path d="M104 138 L110 144 L116 138" fill="none" stroke="#ffb23e" stroke-width="1.8" stroke-linejoin="round" opacity="0.8"/>
+
+  <!-- crown seam -->
+  <path d="M110 30 V88" fill="none" stroke="#ffb23e" stroke-width="1.6" opacity="0.65"/>
+
+  <!-- cheek panels -->
+  <path d="M64 132 L82 160 L90 190" fill="none" stroke="#22d3ee" stroke-width="1.6" opacity="0.7" stroke-linejoin="round"/>
+  <path d="M156 132 L138 160 L130 190" fill="none" stroke="#22d3ee" stroke-width="1.6" opacity="0.7" stroke-linejoin="round"/>
+
+  <!-- temple vents -->
+  <g stroke="#22d3ee" stroke-width="1.2" opacity="0.5">
+    <path d="M48 72 L60 76"/><path d="M46 88 L59 90"/>
+    <path d="M172 72 L160 76"/><path d="M174 88 L161 90"/>
+  </g>
+
+  <!-- mouth grille — low, in the jaw -->
+  <g stroke="#ffb23e" stroke-width="2.4" stroke-linecap="round" opacity="0.85">
+    <path d="M92 168 H128"/>
+    <path d="M95 179 H125"/>
+    <path d="M99 190 H121"/>
+  </g>
+
+  <!-- chin -->
+  <path d="M100 199 L110 208 L120 199" fill="none" stroke="#ffb23e" stroke-width="2" stroke-linecap="round" opacity="0.8"/>
+
+  <!-- HUD corner brackets -->
+  <g stroke="#22d3ee" stroke-width="1.6" fill="none" opacity="0.5">
+    <path d="M14 42 V14 H42"/><path d="M206 42 V14 H178"/>
+    <path d="M14 208 V236 H42"/><path d="M206 208 V236 H178"/>
+  </g>
+</svg>

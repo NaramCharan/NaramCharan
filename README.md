@@ -45,6 +45,9 @@ Two things I care about more than model choice:
   row, and touch the test set once. Every number below comes from a split built that way.
 - **Metrics that describe behaviour.** Accuracy on imbalanced data is the number most likely to lie
   to you. Where it would mislead, the honest metric is the one reported.
+- **Working with coding agents.** This site was built by directing **Claude Code** — architecture,
+  design system and product decisions mine, every change reviewed before it merged. The
+  certification below is the theory; [naramcharan.me](https://naramcharan.me) is the artifact.
 
 ---
 
@@ -105,6 +108,7 @@ Two things I care about more than model choice:
 
 `Advanced OOP` · `Data Structures` · `REST APIs`
 `SQL · Schema Design` · `SQLAlchemy` · `SQLite` · `PostgreSQL`
+`Claude Code · agentic development`
 `BeautifulSoup` · `Git` · `Jupyter` · `Kaggle GPU`
 
 </td></tr>
