@@ -1,22 +1,28 @@
 <div align="center">
 
-<!-- HUD header — cyan/gold on the site's OLED black-navy, not the red suit palette -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:05080F,60:0e7d8f,100:22D3EE&height=170&section=header&text=NARAM%20CHARAN&fontSize=48&fontColor=eaf7fb&fontAlignY=36&desc=AI%20%26%20MACHINE%20LEARNING%20ENGINEER&descSize=14&descAlignY=56" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:05080F,60:0e7d8f,100:22D3EE&height=180&section=header&text=NARAM%20CHARAN&fontSize=50&fontColor=eaf7fb&fontAlignY=36&desc=AI%20%26%20MACHINE%20LEARNING%20ENGINEER&descSize=15&descAlignY=57" width="100%"/>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&pause=1400&color=22D3EE&center=true&vCenter=true&width=760&lines=%3E+I+teach+machines+to+predict+things.;%3E+End-to-end+ML+%E2%80%94+not+notebook+exercises.;%3E+Shipped+to+a+URL%2C+not+just+a+leaderboard." alt="I teach machines to predict things."/>
-
-<br/><br/>
-
-**`B.TECH CSE · AI & ML`**&nbsp;&nbsp;·&nbsp;&nbsp;**`GD GOENKA UNIVERSITY`**&nbsp;&nbsp;·&nbsp;&nbsp;**`YEAR 03`**&nbsp;&nbsp;·&nbsp;&nbsp;**`CGPA 8.98 / 10`**
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=21&pause=1400&color=22D3EE&center=true&vCenter=true&width=780&lines=%3E+I+teach+machines+to+predict+things.;%3E+End-to-end+ML+%E2%80%94+not+notebook+exercises.;%3E+Shipped+to+a+URL%2C+not+just+a+leaderboard." alt="I teach machines to predict things."/>
 
 <br/>
 
-<a href="https://naramcharan.me"><img src="https://img.shields.io/badge/PORTFOLIO-22D3EE?style=for-the-badge&logo=googlechrome&logoColor=22D3EE&labelColor=05080F"/></a>
-<a href="https://rsna-app.salmonmeadow-7644e67e.eastasia.azurecontainerapps.io"><img src="https://img.shields.io/badge/LIVE_APP-FFB23E?style=for-the-badge&logo=microsoftazure&logoColor=FFB23E&labelColor=05080F"/></a>
-<a href="https://www.linkedin.com/in/naramcharan/"><img src="https://img.shields.io/badge/LINKEDIN-22D3EE?style=for-the-badge&logo=linkedin&logoColor=22D3EE&labelColor=05080F"/></a>
-<a href="mailto:charannaram1710@gmail.com"><img src="https://img.shields.io/badge/EMAIL-FFB23E?style=for-the-badge&logo=gmail&logoColor=FFB23E&labelColor=05080F"/></a>
+### ◢ [**naramcharan.me**](https://naramcharan.me) ◣
+
+<sub>`THE FULL HUD PORTFOLIO — 3D SCROLL-ASSEMBLED, LIVE PROJECT BRIEFS, INTERACTIVE ML TAXONOMY`</sub>
 
 <br/>
+
+<a href="https://naramcharan.me"><img src="https://img.shields.io/badge/▲_PORTFOLIO-naramcharan.me-22D3EE?style=for-the-badge&labelColor=05080F"/></a>
+<a href="https://rsna-app.salmonmeadow-7644e67e.eastasia.azurecontainerapps.io"><img src="https://img.shields.io/badge/◈_LIVE_ML_APP-try_it-FFB23E?style=for-the-badge&labelColor=05080F"/></a>
+
+<a href="https://www.linkedin.com/in/naramcharan/"><img src="https://img.shields.io/badge/LINKEDIN-05080F?style=for-the-badge&logo=linkedin&logoColor=22D3EE"/></a>
+<a href="mailto:charannaram1710@gmail.com"><img src="https://img.shields.io/badge/EMAIL-05080F?style=for-the-badge&logo=gmail&logoColor=FFB23E"/></a>
+<a href="https://wa.me/919966214989"><img src="https://img.shields.io/badge/WHATSAPP-05080F?style=for-the-badge&logo=whatsapp&logoColor=22D3EE"/></a>
+<img src="https://komarev.com/ghpvc/?username=NaramCharan&label=VISITORS&color=22D3EE&style=for-the-badge"/>
+
+<br/>
+
+**`B.TECH CSE · AI & ML`**&nbsp;·&nbsp;**`GD GOENKA UNIVERSITY`**&nbsp;·&nbsp;**`YEAR 03`**&nbsp;·&nbsp;**`CGPA 8.98 / 10`**
 
 `◢ OPEN TO INTERNSHIPS`&nbsp;&nbsp;·&nbsp;&nbsp;`GURUGRAM, INDIA`
 
@@ -27,9 +33,9 @@
 ## `00` ◢ CORE
 
 Third-year CS student specializing in **AI & Machine Learning**, building systems that reach
-production rather than stopping at a metric in a notebook. Recommendation architectures on learned
+production rather than stopping at a metric in a notebook — recommendation architectures on learned
 embeddings, gradient-boosted forecasters across thousands of parallel series, CNNs on medical
-imaging — and the serving layer around them.
+imaging, and the serving layer around them.
 
 Two things I care about more than model choice:
 
@@ -40,7 +46,71 @@ Two things I care about more than model choice:
 
 ---
 
-## `01` ◢ SERVICE RECORD
+## `01` ◢ TECH STACK
+
+<div align="center">
+
+<img src="https://skillicons.dev/icons?i=python,pytorch,sklearn,fastapi,docker,azure,postgres,sqlite,git,github,react,ts,vscode,linux&perline=7" alt="Tech stack"/>
+
+</div>
+
+<table>
+<tr><td valign="top" width="50%">
+
+**`◢ NEURAL` — Deep Learning**
+
+![PyTorch](https://img.shields.io/badge/PyTorch-05080F?style=flat-square&logo=pytorch&logoColor=FFB23E)
+![torchvision](https://img.shields.io/badge/torchvision-05080F?style=flat-square&logo=pytorch&logoColor=22D3EE)
+
+`Transfer Learning` — ResNet · DenseNet · EfficientNet
+`CNNs` · `Neural Collaborative Filtering`
+`Vector Embeddings` · `FAISS` similarity search
+`Prompt Engineering`
+
+</td><td valign="top" width="50%">
+
+**`◢ MODELS` — Classical ML**
+
+![scikit-learn](https://img.shields.io/badge/scikit--learn-05080F?style=flat-square&logo=scikit-learn&logoColor=FFB23E)
+![XGBoost](https://img.shields.io/badge/XGBoost-05080F?style=flat-square&logoColor=22D3EE)
+![LightGBM](https://img.shields.io/badge/LightGBM-05080F?style=flat-square&logoColor=22D3EE)
+![Optuna](https://img.shields.io/badge/Optuna-05080F?style=flat-square&logoColor=FFB23E)
+
+`Random Forest` · `Logistic Regression`
+`Hyperparameter Optimization` · `Stratified K-Fold CV`
+
+</td></tr>
+<tr><td valign="top" width="50%">
+
+**`◢ SIGNALS` — Data Intelligence**
+
+![Pandas](https://img.shields.io/badge/Pandas-05080F?style=flat-square&logo=pandas&logoColor=22D3EE)
+![NumPy](https://img.shields.io/badge/NumPy-05080F?style=flat-square&logo=numpy&logoColor=FFB23E)
+![pydicom](https://img.shields.io/badge/pydicom-05080F?style=flat-square&logoColor=22D3EE)
+
+`Feature Engineering` · `KNNImputer`
+`RobustScaler` · `Class Imbalance Handling`
+`Recursive Walk-Forward Validation`
+
+</td><td valign="top" width="50%">
+
+**`◢ CORE` — Engineering & Deploy**
+
+![Python](https://img.shields.io/badge/Python_3-05080F?style=flat-square&logo=python&logoColor=FFB23E)
+![FastAPI](https://img.shields.io/badge/FastAPI-05080F?style=flat-square&logo=fastapi&logoColor=22D3EE)
+![Docker](https://img.shields.io/badge/Docker-05080F?style=flat-square&logo=docker&logoColor=22D3EE)
+![Azure](https://img.shields.io/badge/Azure-05080F?style=flat-square&logo=microsoftazure&logoColor=FFB23E)
+
+`Advanced OOP` · `Data Structures` · `REST APIs`
+`SQL · Schema Design` · `SQLAlchemy` · `SQLite` · `PostgreSQL`
+`BeautifulSoup` · `Git` · `Jupyter` · `Kaggle GPU`
+
+</td></tr>
+</table>
+
+---
+
+## `02` ◢ SERVICE RECORD
 
 > `◈` **MK-05** is deployed and answering requests. `◈` **MK-04** is the featured build.
 > Every metric is from a held-out split, never from training.
@@ -53,9 +123,13 @@ Two things I care about more than model choice:
 | **`MK-02`** | **[Neural Collaborative Filtering](https://github.com/NaramCharan/Collaborative_Filtering_Recommendation_system)**<br/><sub>Recommender Systems</sub> | **&lt;10ms**<br/><sub>retrieval</sub> | `PyTorch` `FAISS` | |
 | **`MK-01`** | **[Book Scraping & DB Pipeline](https://github.com/NaramCharan/Book-webscrapper)**<br/><sub>Data Engineering</sub> | **980+**<br/><sub>in &lt;30 min</sub> | `BeautifulSoup` `SQLAlchemy` `SQLite` `Pandas` | |
 
+<div align="center">
+<sub>Full write-ups, interactive briefs and an ML taxonomy mapping every model to its project → <a href="https://naramcharan.me"><b>naramcharan.me</b></a></sub>
+</div>
+
 ---
 
-## `02` ◢ MK-05 · THE ONE THAT SHIPPED
+## `03` ◢ MK-05 · THE ONE THAT SHIPPED
 
 Pneumonia screening on chest radiographs — trained, benchmarked, and running on a public URL.
 
@@ -82,68 +156,6 @@ beat every architecture change in the project combined.
 
 ---
 
-## `03` ◢ SUIT SYSTEMS
-
-<table>
-<tr>
-<td valign="top" width="50%">
-
-**`◢ NEURAL` — Deep Learning & GenAI**
-
-`PyTorch` · `Transfer Learning` · `CNNs`
-`Neural Collaborative Filtering`
-`Vector Embeddings` · `FAISS`
-`Prompt Engineering`
-
-</td>
-<td valign="top" width="50%">
-
-**`◢ MODELS` — Machine Learning**
-
-`XGBoost` · `LightGBM`
-`Random Forest` · `Logistic Regression`
-`Scikit-Learn` · `Optuna`
-
-</td>
-</tr>
-<tr>
-<td valign="top" width="50%">
-
-**`◢ SIGNALS` — Data Intelligence**
-
-`Pandas` · `NumPy`
-`Feature Engineering` · `KNNImputer`
-`Imbalance Handling` · `RobustScaler`
-
-</td>
-<td valign="top" width="50%">
-
-**`◢ CORE` — Engineering & Deploy**
-
-`Python 3 · Advanced OOP` · `Data Structures`
-`FastAPI · REST APIs`
-`SQL · Schema Design` · `SQLAlchemy`
-`Docker · Azure` · `Git`
-
-</td>
-</tr>
-</table>
-
-<div align="center">
-
-![Python](https://img.shields.io/badge/PYTHON-05080F?style=for-the-badge&logo=python&logoColor=22D3EE)
-![PyTorch](https://img.shields.io/badge/PYTORCH-05080F?style=for-the-badge&logo=pytorch&logoColor=FFB23E)
-![scikit-learn](https://img.shields.io/badge/SCIKIT--LEARN-05080F?style=for-the-badge&logo=scikit-learn&logoColor=22D3EE)
-![Pandas](https://img.shields.io/badge/PANDAS-05080F?style=for-the-badge&logo=pandas&logoColor=FFB23E)
-![FastAPI](https://img.shields.io/badge/FASTAPI-05080F?style=for-the-badge&logo=fastapi&logoColor=22D3EE)
-![Docker](https://img.shields.io/badge/DOCKER-05080F?style=for-the-badge&logo=docker&logoColor=22D3EE)
-![Azure](https://img.shields.io/badge/AZURE-05080F?style=for-the-badge&logo=microsoftazure&logoColor=FFB23E)
-![SQL](https://img.shields.io/badge/SQL-05080F?style=for-the-badge&logo=postgresql&logoColor=22D3EE)
-
-</div>
-
----
-
 ## `04` ◢ CERTIFICATIONS
 
 | | | |
@@ -160,10 +172,6 @@ beat every architecture change in the project combined.
 ## `05` ◢ TELEMETRY
 
 <div align="center">
-
-<!-- github-readme-stats.vercel.app is deliberately not used here: its public
-     instance answers 503 most of the time, and a broken image on a profile
-     front page is worse than no image. shields.io and streak-stats are live. -->
 
 <img src="https://img.shields.io/github/followers/NaramCharan?style=for-the-badge&logo=github&label=FOLLOWERS&color=22D3EE&labelColor=05080F"/>
 <img src="https://img.shields.io/github/stars/NaramCharan?affiliations=OWNER&style=for-the-badge&logo=github&label=STARS&color=FFB23E&labelColor=05080F"/>
@@ -182,10 +190,10 @@ beat every architecture change in the project combined.
 
 Channels are open — internships, collaborations, or to talk shop about ML.
 
+<a href="https://naramcharan.me"><img src="https://img.shields.io/badge/▲_NARAMCHARAN.ME-22D3EE?style=for-the-badge&labelColor=05080F"/></a>
 <a href="mailto:charannaram1710@gmail.com"><img src="https://img.shields.io/badge/EMAIL-05080F?style=for-the-badge&logo=gmail&logoColor=FFB23E"/></a>
 <a href="https://www.linkedin.com/in/naramcharan/"><img src="https://img.shields.io/badge/LINKEDIN-05080F?style=for-the-badge&logo=linkedin&logoColor=22D3EE"/></a>
-<a href="https://naramcharan.me"><img src="https://img.shields.io/badge/NARAMCHARAN.ME-05080F?style=for-the-badge&logo=googlechrome&logoColor=22D3EE"/></a>
-<a href="https://wa.me/919966214989"><img src="https://img.shields.io/badge/WHATSAPP-05080F?style=for-the-badge&logo=whatsapp&logoColor=FFB23E"/></a>
+<a href="https://wa.me/919966214989"><img src="https://img.shields.io/badge/WHATSAPP-05080F?style=for-the-badge&logo=whatsapp&logoColor=22D3EE"/></a>
 
 <br/><br/>
 
