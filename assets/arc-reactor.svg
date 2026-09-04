@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200" role="img" aria-label="Arc reactor, rotating">
+  <title>ARC REACTOR — ONLINE</title>
+
+  <defs>
+    <radialGradient id="core" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="40%" stop-color="#bdf3fb"/>
+      <stop offset="100%" stop-color="#22d3ee"/>
+    </radialGradient>
+    <radialGradient id="halo" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#22d3ee" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#22d3ee" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <circle cx="100" cy="100" r="98" fill="url(#halo)"/>
+
+  <!-- weathered outer rim -->
+  <circle cx="100" cy="100" r="86" fill="#0b1420" stroke="#59626b" stroke-width="7"/>
+  <circle cx="100" cy="100" r="91" fill="none" stroke="#22d3ee" stroke-width="1" opacity="0.35"/>
+
+  <!-- ball-bearing rivets -->
+  <g fill="#cdd9de">
+    <circle cx="100" cy="14" r="3.4"/><circle cx="143" cy="26" r="3.4"/>
+    <circle cx="174" cy="57" r="3.4"/><circle cx="186" cy="100" r="3.4"/>
+    <circle cx="174" cy="143" r="3.4"/><circle cx="143" cy="174" r="3.4"/>
+    <circle cx="100" cy="186" r="3.4"/><circle cx="57" cy="174" r="3.4"/>
+    <circle cx="26" cy="143" r="3.4"/><circle cx="14" cy="100" r="3.4"/>
+    <circle cx="26" cy="57" r="3.4"/><circle cx="57" cy="26" r="3.4"/>
+  </g>
+
+  <!-- tick ring, slowly rotating -->
+  <g stroke="#22d3ee" stroke-width="1.4" opacity="0.55">
+    <animateTransform attributeName="transform" type="rotate" from="0 100 100" to="360 100 100" dur="26s" repeatCount="indefinite"/>
+    <circle cx="100" cy="100" r="74" fill="none" stroke-dasharray="3 7"/>
+  </g>
+
+  <!-- coil well -->
+  <circle cx="100" cy="100" r="66" fill="#08161f" stroke="#155e6b" stroke-width="2"/>
+
+  <!-- brass windings + glow slots, counter-rotating -->
+  <g>
+    <animateTransform attributeName="transform" type="rotate" from="360 100 100" to="0 100 100" dur="34s" repeatCount="indefinite"/>
+    <g>
+      <!-- 10 winding blocks -->
+      <g fill="#d8973c" opacity="0.85" stroke="#8a5a1c" stroke-width="0.8">
+        <rect x="94" y="40" width="12" height="24" rx="2" transform="rotate(0 100 100)"/>
+        <rect x="94" y="40" width="12" height="24" rx="2" transform="rotate(36 100 100)"/>
+        <rect x="94" y="40" width="12" height="24" rx="2" transform="rotate(72 100 100)"/>
+        <rect x="94" y="40" width="12" height="24" rx="2" transform="rotate(108 100 100)"/>
+        <rect x="94" y="40" width="12" height="24" rx="2" transform="rotate(144 100 100)"/>
+        <rect x="94" y="40" width="12" height="24" rx="2" transform="rotate(180 100 100)"/>
+        <rect x="94" y="40" width="12" height="24" rx="2" transform="rotate(216 100 100)"/>
+        <rect x="94" y="40" width="12" height="24" rx="2" transform="rotate(252 100 100)"/>
+        <rect x="94" y="40" width="12" height="24" rx="2" transform="rotate(288 100 100)"/>
+        <rect x="94" y="40" width="12" height="24" rx="2" transform="rotate(324 100 100)"/>
+      </g>
+      <!-- light spilling from between them -->
+      <g stroke="#bdf3fb" stroke-width="3.4" stroke-linecap="round" opacity="0.9">
+        <path d="M100 44 V64" transform="rotate(18 100 100)"/>
+        <path d="M100 44 V64" transform="rotate(54 100 100)"/>
+        <path d="M100 44 V64" transform="rotate(90 100 100)"/>
+        <path d="M100 44 V64" transform="rotate(126 100 100)"/>
+        <path d="M100 44 V64" transform="rotate(162 100 100)"/>
+        <path d="M100 44 V64" transform="rotate(198 100 100)"/>
+        <path d="M100 44 V64" transform="rotate(234 100 100)"/>
+        <path d="M100 44 V64" transform="rotate(270 100 100)"/>
+        <path d="M100 44 V64" transform="rotate(306 100 100)"/>
+        <path d="M100 44 V64" transform="rotate(342 100 100)"/>
+      </g>
+    </g>
+  </g>
+
+  <!-- machined rings -->
+  <circle cx="100" cy="100" r="34" fill="#0b1420" stroke="#2a4a55" stroke-width="2"/>
+  <circle cx="100" cy="100" r="29" fill="none" stroke="#7de7f5" stroke-width="1" opacity="0.5"/>
+
+  <!-- the triangle heart -->
+  <circle cx="100" cy="100" r="24" fill="url(#core)">
+    <animate attributeName="opacity" values="0.86;1;0.86" dur="3.2s" repeatCount="indefinite"/>
+  </circle>
+  <path d="M100 86 L112 108 L88 108 Z" fill="#05080f" opacity="0.55"/>
+  <path d="M100 86 L112 108 L88 108 Z" fill="none" stroke="#eafdff" stroke-width="1.6" stroke-linejoin="round"/>
+</svg>

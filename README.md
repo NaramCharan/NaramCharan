@@ -6,6 +6,18 @@
 
 <br/>
 
+<img src="assets/arc-reactor.svg" width="110" alt="Arc reactor"/>
+&nbsp;&nbsp;&nbsp;
+<img src="assets/helmet.svg" width="180" alt="Mark XLII helmet"/>
+&nbsp;&nbsp;&nbsp;
+<img src="assets/arc-reactor.svg" width="110" alt="Arc reactor"/>
+
+<br/>
+
+<sub>`◢ MARK XLII · SUIT SYSTEMS ONLINE ◣`</sub>
+
+<br/>
+
 ### ◢ [**naramcharan.me**](https://naramcharan.me) ◣
 
 <sub>`THE FULL HUD PORTFOLIO — 3D SCROLL-ASSEMBLED, LIVE PROJECT BRIEFS, INTERACTIVE ML TAXONOMY`</sub>
@@ -36,6 +48,10 @@ Third-year CS student specializing in **AI & Machine Learning**, building system
 production rather than stopping at a metric in a notebook — recommendation architectures on learned
 embeddings, gradient-boosted forecasters across thousands of parallel series, CNNs on medical
 imaging, and the serving layer around them.
+
+> It started with a man in a suit of armor — but the part that stuck was never the armor.
+> It was **JARVIS**. The suit is hardware; the intelligence behind it is the interesting problem.
+> That is the whole reason I build what I build.
 
 Two things I care about more than model choice:
 
@@ -129,6 +145,8 @@ Two things I care about more than model choice:
 
 ---
 
+<div align="center"><img src="assets/arc-reactor.svg" width="70" alt=""/></div>
+
 ## `03` ◢ MK-05 · THE ONE THAT SHIPPED
 
 Pneumonia screening on chest radiographs — trained, benchmarked, and running on a public URL.
@@ -185,6 +203,8 @@ beat every architecture change in the project combined.
 ---
 
 <div align="center">
+
+<img src="assets/helmet.svg" width="110" alt="Mark XLII helmet"/>
 
 ### `◢ ESTABLISH LINK`
 
