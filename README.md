@@ -1,5 +1,7 @@
 <div align="center">
 
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:05080F,50:0e7d8f,100:22D3EE&height=170&section=header&text=NARAM%20CHARAN&fontColor=E6F7FB&fontSize=46&fontAlignY=36&desc=ML%20ENGINEER%20%E2%80%94%20AI%20%26%20MACHINE%20LEARNING&descSize=15&descAlignY=58&animation=fadeIn" width="100%"/>
+
 <sub>`◢ MARK XLII · SUIT SYSTEMS ONLINE ◣`</sub>
 
 <br/>
@@ -7,6 +9,8 @@
 ### ◢ [**naramcharan.me**](https://naramcharan.me) ◣
 
 <sub>`THE FULL HUD PORTFOLIO — 3D SCROLL-ASSEMBLED, LIVE PROJECT BRIEFS, INTERACTIVE ML TAXONOMY`</sub>
+
+<a href="https://naramcharan.me"><img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=17&duration=2600&pause=900&color=22D3EE&center=true&vCenter=true&width=640&height=40&lines=Building+ML+systems+that+reach+production;Leakage-free+validation%2C+honest+metrics;Now+building%3A+a+GPT+and+its+tokenizer+from+scratch;Open+to+internships+%E2%80%94+Gurugram%2C+India" alt="Typing tagline"/></a>
 
 <br/>
 
@@ -33,13 +37,13 @@
 Third-year CS student specializing in **AI & Machine Learning**, building systems that reach
 production rather than stopping at a metric in a notebook — recommendation architectures on learned
 embeddings, gradient-boosted forecasters across thousands of parallel series, CNNs on medical
-imaging, and the serving layer around them.
+imaging, the serving layer around them — and a GPT plus its tokenizer, written from scratch.
 
 > It started with a man in a suit of armor — but the part that stuck was never the armor.
 > It was **JARVIS**. The suit is hardware; the intelligence behind it is the interesting problem.
 > That is the whole reason I build what I build.
 
-Two things I care about more than model choice:
+Three things I care about more than model choice:
 
 - **Leakage-free validation.** Split before you engineer features, split on the entity and not the
   row, and touch the test set once. Every number below comes from a split built that way.
@@ -55,7 +59,7 @@ Two things I care about more than model choice:
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=python,pytorch,sklearn,fastapi,docker,azure,postgres,sqlite,git,github,react,ts,vscode,linux&perline=7" alt="Tech stack"/>
+<img src="https://skillicons.dev/icons?i=python,pytorch,sklearn,fastapi,docker,postgres,sqlite,git,github,react,ts,pycharm&perline=6" alt="Tech stack"/>
 
 </div>
 
@@ -69,6 +73,7 @@ Two things I care about more than model choice:
 
 `Transfer Learning` — ResNet · DenseNet · EfficientNet
 `CNNs` · `Neural Collaborative Filtering`
+`Transformers` · `BPE Tokenizer` — built from scratch
 `Vector Embeddings` · `FAISS` similarity search
 `Prompt Engineering`
 
@@ -118,11 +123,12 @@ Two things I care about more than model choice:
 
 ## `02` ◢ SERVICE RECORD
 
-> `◈` **MK-05** is deployed and answering requests. `◈` **MK-04** is the featured build.
+> `◈` **MK-06** is the newest build, still being extended. `◈` **MK-05** is deployed and answering requests. `◈` **MK-04** is the featured build.
 > Every metric is from a held-out split, never from training.
 
 | | PROJECT | HEADLINE | STACK | |
 |:--|:--|:--|:--|:--|
+| **`MK-06`** | **[Handbuilt Transformer](https://github.com/NaramCharan/Handbuilt-Transformer)**<br/><sub>NLP · from scratch · in progress</sub> | **1.82 val loss**<br/><sub>~210K-param GPT</sub> | `PyTorch` `Transformers` `BPE Tokenizer` `NLP` | |
 | **`MK-05`** | **[RSNA Pneumonia Detection](https://github.com/NaramCharan/RSNA-Pneumonia-Detection)**<br/><sub>Medical Imaging · **deployed** · Aug 1 – Sep 4, 2026</sub> | **83% recall**<br/><sub>0.79 F1 · 86% acc</sub> | `PyTorch` `pydicom` `FastAPI` `React` `Docker` `Azure` | [**LIVE ↗**](https://rsna-app.salmonmeadow-7644e67e.eastasia.azurecontainerapps.io) |
 | **`MK-04`** | **[Walmart Weekly Sales Forecasting](https://github.com/NaramCharan/Walmart-Store-Weekly-Sales-Forecasting)**<br/><sub>Time-Series Forecasting</sub> | **95.55% R²**<br/><sub>validation</sub> | `LightGBM` `XGBoost` `Scikit-Learn` `Pandas` | |
 | **`MK-03`** | **[E-Commerce Churn Prediction](https://github.com/NaramCharan/ecommerce-customer-churn-prediction)**<br/><sub>Classification</sub> | **98.28% acc**<br/><sub>94.74% F1</sub> | `XGBoost` `PyTorch` `Scikit-Learn` `Optuna` | |
@@ -151,102 +157,4 @@ DICOM  →  patient-level split  →  transfer learning  →  FastAPI  →  Dock
 | **Baseline** | 68% — what you score by always answering "no pneumonia" |
 | **Why recall** | ~70% of studies are negative. Accuracy rewards a model that finds nothing |
 | **Models** | DenseNet-121 vs EfficientNet-B2 vs ResNet-34, two-stage transfer learning, one protocol |
-| **Integrity** | Split on unique patient IDs, not rows. Test set evaluated exactly once |
-| **Cost** | $5.06/month — priced a Postgres layer at $25.68 to hold a 4 KB CSV, and deleted it |
-
-**The bug worth the whole project.** A copied ImageNet pipeline ran `RandomCrop(224)` *first*, on
-1024×1024 radiographs. Every training image was a random **4.8% patch** still carrying the label
-"pneumonia" — most contained no lung opacity at all, many contained no lung. Deleting that one line
-beat every architecture change in the project combined.
-
-> Augmentation is not free. A transform that is standard in one domain can silently corrupt your
-> labels in another.
-
----
-
-<div align="center"><img src="assets/arc-reactor.svg" width="70" alt=""/></div>
-
-## `04` ◢ MK-04 · THE ONE THAT ALMOST LIED
-
-Weekly sales forecasting across every store-department pair Walmart has — one global model, not
-three thousand small ones.
-
-```
-45 stores × 99 depts  →  ~3,000 parallel series  →  one model  →  recursive walk-forward
-```
-
-| | |
-|:--|:--|
-| **Result** | 95.55% validation R² · RMSE 4,647 with LightGBM on held-out weeks |
-| **Scale** | 45 stores × 99 departments — ~3,000 series, one model learns them all |
-| **Method** | Recursive walk-forward engine built from scratch, no forecasting libraries — each week's predictions are fed back in as the next week's lag and rolling features |
-| **Models** | LightGBM vs XGBoost vs Random Forest under identical leakage-free conditions; a 5-layer neural baseline tested and rejected on compute |
-| **Integrity** | Split by date first, features engineered on train only, rolling stats via `shift(1)` so the current week never leaks into its own prediction |
-
-**The number that was too good.** An early run scored **R² ≈ 0.98** and I nearly kept it. It was
-temporal leakage — rolling statistics computed across the split boundary, letting each week see
-itself. Fixing it *lowered* the headline number to 95.55%, and that is the one worth reporting,
-because it is the only one that describes a model forecasting a week it has never seen.
-
-> A forecasting score that looks better than the problem allows is a bug report, not a result.
-
----
-
-<div align="center"><img src="assets/arc-reactor.svg" width="70" alt=""/></div>
-
-## `05` ◢ MK-03 · THE ONE THAT SHIPPED THE SMALLER MODEL
-
-Four-model churn bake-off on e-commerce customer data, tuned against the cost of the mistake that
-actually matters.
-
-```
-ColumnTransformer  →  4 models  →  Optuna × 10-fold stratified CV  →  scored on recall
-```
-
-| | |
-|:--|:--|
-| **Result** | 98.28% accuracy · 94.74% F1 · 91.58% recall on the held-out test set |
-| **Objective** | Flag churners before they leave — a missed churner walks away undetected, so recall carries the weight |
-| **Pipeline** | Reusable `ColumnTransformer` fit on train only — imputers, scalers and encoders never see test-set statistics |
-| **Models** | Logistic Regression vs Random Forest vs XGBoost vs a 4-hidden-layer PyTorch net (BatchNorm, inverted dropout 0.5 → 0.2, Kaiming init) |
-| **Tuning** | Optuna over 10-fold Stratified CV scored on recall; imbalance handled with class weights / `scale_pos_weight` |
-
-**The deep net won and still didn't ship.** The PyTorch network topped the leaderboard at 98.76%
-against XGBoost's 98.28% — a margin under one point. XGBoost went to production anyway: near-instant
-scoring, no GPU, and feature importances you can hand to somebody and have them believe you.
-
-> Half a point of accuracy doesn't buy a GPU bill.
-
----
-
-## `06` ◢ CERTIFICATIONS
-
-| | | |
-|:--|:--|:--|
-| `JUL 2026` | **Deep Learning Specialization** | DeepLearning.AI |
-| `JUL 2026` | **Claude Code: A Highly Agentic Coding Assistant** | DeepLearning.AI · Anthropic |
-| `MAY 2026` | **Machine Learning Specialization** | DeepLearning.AI · Stanford University |
-| `NOV 2025` | **Databases & SQL for Data Science with Python** | IBM · Coursera |
-| `MAR 2025` | **Python for Everybody Specialization** | University of Michigan · Coursera |
-| `MAR 2025` | **Prompt Engineering & Generative AI** | Google · Vanderbilt University |
-
----
-
-<div align="center">
-
-### `◢ ESTABLISH LINK`
-
-Channels are open — internships, collaborations, or to talk shop about ML.
-
-<a href="https://naramcharan.me"><img src="https://img.shields.io/badge/▲_NARAMCHARAN.ME-22D3EE?style=for-the-badge&labelColor=05080F"/></a>
-<a href="mailto:charannaram1710@gmail.com"><img src="https://img.shields.io/badge/EMAIL-05080F?style=for-the-badge&logo=gmail&logoColor=FFB23E"/></a>
-<a href="https://www.linkedin.com/in/naramcharan/"><img src="https://img.shields.io/badge/LINKEDIN-05080F?style=for-the-badge&logo=linkedin&logoColor=22D3EE"/></a>
-<a href="https://wa.me/919966214989"><img src="https://img.shields.io/badge/WHATSAPP-05080F?style=for-the-badge&logo=whatsapp&logoColor=22D3EE"/></a>
-
-<br/><br/>
-
-<sub>`MARK XLII · PERSONAL INTERFACE` — the full HUD version lives at **[naramcharan.me](https://naramcharan.me)**</sub>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:22D3EE,50:0e7d8f,100:05080F&height=110&section=footer" width="100%"/>
-
-</div>
+| **Integrity** | Split
