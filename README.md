@@ -5,14 +5,13 @@
 
 <br />
 
-<a href="https://naramcharan.me"><img src="assets/portfolio.svg" height="42" alt="Explore portfolio →" /></a>
 <a href="https://rsna-app.salmonmeadow-7644e67e.eastasia.azurecontainerapps.io/"><img src="assets/demo.svg" height="42" alt="Try the live ML application →" /></a>
 <a href="https://naramcharan.me/armor/"><img src="assets/aegis.svg" height="42" alt="Explore Project Aegis 3D →" /></a>
 
 <p><b>3rd-year CS · AI &amp; Machine Learning · Open to internships</b><br />
 <sub>GD Goenka University · Gurugram, India · CGPA 8.98 / 10 · Graduating May 2028</sub></p>
 
-<a href="https://www.linkedin.com/in/naramcharan/">LinkedIn</a> · <a href="mailto:charannaram1710@gmail.com">Email</a> · <a href="https://wa.me/919966214989">WhatsApp</a>
+<p><a href="https://naramcharan.me" title="Portfolio website"><img src="assets/icons/portfolio.svg" width="32" height="32" alt="Portfolio website" /></a>&nbsp;&nbsp;&nbsp;<a href="https://www.linkedin.com/in/naramcharan/" title="LinkedIn"><img src="assets/icons/linkedin.svg" width="32" height="32" alt="LinkedIn" /></a>&nbsp;&nbsp;&nbsp;<a href="mailto:charannaram1710@gmail.com" title="Gmail"><img src="assets/icons/gmail.svg" width="32" height="32" alt="Gmail" /></a>&nbsp;&nbsp;&nbsp;<a href="https://wa.me/919966214989" title="WhatsApp"><img src="assets/icons/whatsapp.svg" width="32" height="32" alt="WhatsApp" /></a></p>
 
 </div>
 
@@ -108,6 +107,6 @@ I'm extending my **handbuilt GPT and BPE tokenizer** while studying transformer 
 <p><code>CHANNELS OPEN // LET'S BUILD</code></p>
 
 <b>Open to ML internships and collaborations.</b><br />
-<a href="https://naramcharan.me">naramcharan.me</a> · <a href="https://www.linkedin.com/in/naramcharan/">LinkedIn</a> · <a href="mailto:charannaram1710@gmail.com">charannaram1710@gmail.com</a>
+<p><a href="https://naramcharan.me" title="Portfolio website"><img src="assets/icons/portfolio.svg" width="32" height="32" alt="Portfolio website" /></a>&nbsp;&nbsp;&nbsp;<a href="https://www.linkedin.com/in/naramcharan/" title="LinkedIn"><img src="assets/icons/linkedin.svg" width="32" height="32" alt="LinkedIn" /></a>&nbsp;&nbsp;&nbsp;<a href="mailto:charannaram1710@gmail.com" title="Gmail"><img src="assets/icons/gmail.svg" width="32" height="32" alt="Gmail" /></a></p>
 
 </div>
