@@ -46,10 +46,10 @@ Medical images, time series, language models, and the systems around them. Open 
 
 <table width="100%">
 <thead><tr>
-<th width="25%" align="left">NEURAL</th>
-<th width="25%" align="left">MODELS</th>
-<th width="25%" align="left">SIGNALS</th>
-<th width="25%" align="left">CORE</th>
+<th width="25%" align="left">NEURAL<br /><img src="assets/skills-column-rule.svg" width="182" height="2" alt="" /></th>
+<th width="25%" align="left">MODELS<br /><img src="assets/skills-column-rule.svg" width="182" height="2" alt="" /></th>
+<th width="25%" align="left">SIGNALS<br /><img src="assets/skills-column-rule.svg" width="182" height="2" alt="" /></th>
+<th width="25%" align="left">CORE<br /><img src="assets/skills-column-rule.svg" width="182" height="2" alt="" /></th>
 </tr></thead>
 <tbody><tr>
 <td width="25%" valign="top">
