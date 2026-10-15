@@ -76,8 +76,8 @@ I'm extending my **handbuilt GPT and BPE tokenizer** while studying transformer 
 
 <table width="100%">
 <tr>
-<td width="180" align="center" valign="middle">
-<img src="assets/helmet.svg" width="150" alt="Iron Man helmet in cyan-and-amber HUD line art" />
+<td width="110" align="center" valign="middle">
+<img src="assets/helmet-realistic.jpg" width="80" alt="Realistic Iron Man Mark III helmet" /><br /><sub><a href="assets/helmet-realistic-credit.md">Helmet credit</a></sub>
 </td>
 <td valign="top">
 <p>It started with a man in a suit of armor. What stayed with me was the AI he talked to.</p>
