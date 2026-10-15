@@ -18,7 +18,7 @@
 
 ## `01` ◢ SELECTED BUILDS
 
-Medical images, time series, embeddings, and the systems around them. Open a build to see the code and evaluation.
+Medical images, time series, language models, and the systems around them. Open a build to see the code and evaluation.
 
 <table>
 <tr>
@@ -30,8 +30,7 @@ Medical images, time series, embeddings, and the systems around them. Open a bui
 <td width="50%"><a href="https://github.com/NaramCharan/ecommerce-customer-churn-prediction"><img src="assets/churn.svg" width="100%" alt="E-Commerce Churn — selected XGBoost model: 94.74% test F1 and 98.28% test accuracy. Optuna tuning and comparison with a PyTorch network." /></a></td>
 </tr>
 <tr>
-<td width="50%"><a href="https://github.com/NaramCharan/Collaborative_Filtering_Recommendation_system"><img src="assets/recommend.svg" width="100%" alt="MovieLens Recommendations — learned user and item embeddings, best-weight restoration and FAISS inner-product retrieval. TensorFlow and Keras." /></a></td>
-<td width="50%"><a href="https://github.com/NaramCharan/Book-webscrapper"><img src="assets/books.svg" width="100%" alt="Book Data Pipeline — over 980 books in under 30 minutes. Structured extraction to SQLite and CSV using BeautifulSoup and SQLAlchemy." /></a></td>
+<td colspan="2" align="center"><a href="https://github.com/NaramCharan/Book-webscrapper"><img src="assets/books.svg" width="50%" alt="Book Data Pipeline — over 980 books in under 30 minutes. Structured extraction to SQLite and CSV using BeautifulSoup and SQLAlchemy." /></a></td>
 </tr>
 </table>
 
@@ -61,7 +60,7 @@ I'm extending my **handbuilt GPT and BPE tokenizer** while studying transformer 
 
 It started with a man in a suit of armor. What stayed with me was the AI he talked to.
 
-I'm a third-year Computer Science student specializing in AI & Machine Learning. I work on medical-image classifiers, forecasting pipelines, recommendation systems, and models built from scratch.
+I'm a third-year Computer Science student specializing in AI & Machine Learning. I work on medical-image classifiers, forecasting pipelines, and models built from scratch.
 
 My [portfolio](https://naramcharan.me) connects those projects through an interactive ML taxonomy and a WebGL armor assembly sequence. I built it with Next.js and WebGL by directing Claude Code.
 
