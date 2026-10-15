@@ -44,25 +44,48 @@ Medical images, time series, language models, and the systems around them. Open 
 
 ## `03` ◢ SYSTEMS I WORK WITH
 
-| System | Tools & methods |
-| :-- | :-- |
-| **NEURAL** | <img src="assets/icons/pytorch.svg" width="18" height="18" alt="" />&nbsp;PyTorch&nbsp;&nbsp; · &nbsp;&nbsp;<img src="assets/icons/tensorflow.svg" width="18" height="18" alt="" />&nbsp;TensorFlow&nbsp;&nbsp; · &nbsp;&nbsp;<img src="assets/icons/keras.svg" width="18" height="18" alt="" />&nbsp;Keras<br /><br /><img src="assets/icons/network.svg" width="18" height="18" alt="" />&nbsp;CNNs&nbsp;&nbsp; · &nbsp;&nbsp;<img src="assets/icons/network.svg" width="18" height="18" alt="" />&nbsp;transfer&nbsp;learning<br /><br /><img src="assets/icons/network.svg" width="18" height="18" alt="" />&nbsp;self-attention&nbsp;&nbsp; · &nbsp;&nbsp;<img src="assets/icons/network.svg" width="18" height="18" alt="" />&nbsp;BPE&nbsp;&nbsp; · &nbsp;&nbsp;<img src="assets/icons/network.svg" width="18" height="18" alt="" />&nbsp;embeddings |
-| **MODELS** | <img src="assets/icons/tree.svg" width="18" height="18" alt="" />&nbsp;XGBoost&nbsp;&nbsp; · &nbsp;&nbsp;<img src="assets/icons/tree.svg" width="18" height="18" alt="" />&nbsp;LightGBM&nbsp;&nbsp; · &nbsp;&nbsp;<img src="assets/icons/tree.svg" width="18" height="18" alt="" />&nbsp;Random&nbsp;Forest<br /><br /><img src="assets/icons/scikitlearn.svg" width="18" height="18" alt="" />&nbsp;scikit-learn&nbsp;&nbsp; · &nbsp;&nbsp;<img src="assets/icons/tuning.svg" width="18" height="18" alt="" />&nbsp;Optuna |
-| **SIGNALS** | <img src="assets/icons/pandas.svg" width="18" height="18" alt="" />&nbsp;Pandas&nbsp;&nbsp; · &nbsp;&nbsp;<img src="assets/icons/numpy.svg" width="18" height="18" alt="" />&nbsp;NumPy&nbsp;&nbsp; · &nbsp;&nbsp;<img src="assets/icons/medical.svg" width="18" height="18" alt="" />&nbsp;pydicom<br /><br /><img src="assets/icons/features.svg" width="18" height="18" alt="" />&nbsp;feature&nbsp;engineering&nbsp;&nbsp; · &nbsp;&nbsp;<img src="assets/icons/timeline.svg" width="18" height="18" alt="" />&nbsp;walk-forward&nbsp;evaluation |
-| **CORE** | <img src="assets/icons/python.svg" width="18" height="18" alt="" />&nbsp;Python&nbsp;&nbsp; · &nbsp;&nbsp;<img src="assets/icons/fastapi.svg" width="18" height="18" alt="" />&nbsp;FastAPI&nbsp;&nbsp; · &nbsp;&nbsp;<img src="assets/icons/sqlalchemy.svg" width="18" height="18" alt="" />&nbsp;SQLAlchemy<br /><br /><img src="assets/icons/database.svg" width="18" height="18" alt="" />&nbsp;SQL&nbsp;&nbsp; · &nbsp;&nbsp;<img src="assets/icons/sqlite.svg" width="18" height="18" alt="" />&nbsp;SQLite&nbsp;&nbsp; · &nbsp;&nbsp;<img src="assets/icons/docker.svg" width="18" height="18" alt="" />&nbsp;Docker<br /><br /><img src="assets/icons/azure.svg" width="18" height="18" alt="" />&nbsp;Azure&nbsp;&nbsp; · &nbsp;&nbsp;<img src="assets/icons/git.svg" width="18" height="18" alt="" />&nbsp;Git&nbsp;&nbsp; · &nbsp;&nbsp;<img src="assets/icons/claude.svg" width="18" height="18" alt="" />&nbsp;Claude&nbsp;Code |
+<table width="100%">
+<thead><tr>
+<th width="25%" align="left">NEURAL</th>
+<th width="25%" align="left">MODELS</th>
+<th width="25%" align="left">SIGNALS</th>
+<th width="25%" align="left">CORE</th>
+</tr></thead>
+<tbody><tr>
+<td width="25%" valign="top">
+<img src="assets/icons/pytorch.svg" width="18" height="18" alt="" />&nbsp;PyTorch<br /><br /><img src="assets/icons/network.svg" width="18" height="18" alt="" />&nbsp;CNNs<br /><br /><img src="assets/icons/network.svg" width="18" height="18" alt="" />&nbsp;transfer&nbsp;learning<br /><br /><img src="assets/icons/network.svg" width="18" height="18" alt="" />&nbsp;self-attention<br /><br /><img src="assets/icons/network.svg" width="18" height="18" alt="" />&nbsp;BPE<br /><br /><img src="assets/icons/network.svg" width="18" height="18" alt="" />&nbsp;embeddings
+</td>
+<td width="25%" valign="top">
+<img src="assets/icons/regression.svg" width="18" height="18" alt="" />&nbsp;Linear&nbsp;Regression<br /><br /><img src="assets/icons/logistic.svg" width="18" height="18" alt="" />&nbsp;Logistic&nbsp;Regression<br /><br /><img src="assets/icons/tree.svg" width="18" height="18" alt="" />&nbsp;Random&nbsp;Forest<br /><br /><img src="assets/icons/tree.svg" width="18" height="18" alt="" />&nbsp;XGBoost<br /><br /><img src="assets/icons/tree.svg" width="18" height="18" alt="" />&nbsp;LightGBM<br /><br /><img src="assets/icons/clustering.svg" width="18" height="18" alt="" />&nbsp;K-Means&nbsp;Clustering<br /><br /><img src="assets/icons/anomaly.svg" width="18" height="18" alt="" />&nbsp;Isolation&nbsp;Forest<br /><sub>Anomaly detection</sub><br /><br /><img src="assets/icons/scikitlearn.svg" width="18" height="18" alt="" />&nbsp;scikit-learn<br /><br /><img src="assets/icons/tuning.svg" width="18" height="18" alt="" />&nbsp;Optuna
+</td>
+<td width="25%" valign="top">
+<img src="assets/icons/pandas.svg" width="18" height="18" alt="" />&nbsp;Pandas<br /><br /><img src="assets/icons/numpy.svg" width="18" height="18" alt="" />&nbsp;NumPy<br /><br /><img src="assets/icons/medical.svg" width="18" height="18" alt="" />&nbsp;pydicom<br /><br /><img src="assets/icons/features.svg" width="18" height="18" alt="" />&nbsp;feature&nbsp;engineering<br /><br /><img src="assets/icons/timeline.svg" width="18" height="18" alt="" />&nbsp;walk-forward&nbsp;evaluation
+</td>
+<td width="25%" valign="top">
+<img src="assets/icons/python.svg" width="18" height="18" alt="" />&nbsp;Python<br /><br /><img src="assets/icons/fastapi.svg" width="18" height="18" alt="" />&nbsp;FastAPI<br /><br /><img src="assets/icons/sqlalchemy.svg" width="18" height="18" alt="" />&nbsp;SQLAlchemy<br /><br /><img src="assets/icons/database.svg" width="18" height="18" alt="" />&nbsp;SQL<br /><br /><img src="assets/icons/sqlite.svg" width="18" height="18" alt="" />&nbsp;SQLite<br /><br /><img src="assets/icons/docker.svg" width="18" height="18" alt="" />&nbsp;Docker<br /><br /><img src="assets/icons/azure.svg" width="18" height="18" alt="" />&nbsp;Azure<br /><br /><img src="assets/icons/git.svg" width="18" height="18" alt="" />&nbsp;Git<br /><br /><img src="assets/icons/claude.svg" width="18" height="18" alt="" />&nbsp;Claude&nbsp;Code
+</td>
+</tr></tbody>
+</table>
 
 ## `04` ◢ NEXT BUILD
 
 I'm extending my **handbuilt GPT and BPE tokenizer** while studying transformer internals. My goal is to understand the model, evaluate it clearly, and make it usable.
 
-<details>
+<details open>
 <summary><b>◢ Origin story</b></summary>
 
-It started with a man in a suit of armor. What stayed with me was the AI he talked to.
-
-I'm a third-year Computer Science student specializing in AI & Machine Learning. I work on medical-image classifiers, forecasting pipelines, and models built from scratch.
-
-My [portfolio](https://naramcharan.me) connects those projects through an interactive ML taxonomy and a WebGL armor assembly sequence. I built it with Next.js and WebGL by directing Claude Code.
+<table width="100%">
+<tr>
+<td width="180" align="center" valign="middle">
+<img src="assets/helmet.svg" width="150" alt="Iron Man helmet in cyan-and-amber HUD line art" />
+</td>
+<td valign="top">
+<p>It started with a man in a suit of armor. What stayed with me was the AI he talked to.</p>
+<p>I'm a third-year Computer Science student specializing in AI &amp; Machine Learning. I work on medical-image classifiers, forecasting pipelines, and models built from scratch.</p>
+<p>My <a href="https://naramcharan.me">portfolio</a> connects those projects through an interactive ML taxonomy and a WebGL armor assembly sequence. I built it with Next.js and WebGL by directing Claude Code.</p>
+</td>
+</tr>
+</table>
 
 </details>
 
