@@ -52,16 +52,16 @@ Medical images, time series, language models, and the systems around them. Open 
 <th width="25%" align="left">CORE<br /><img src="assets/skills-column-rule.svg" width="182" height="2" alt="" /></th>
 </tr></thead>
 <tbody><tr>
-<td width="25%" valign="top">
+<td width="25%" valign="top" nowrap>
 <img src="assets/icons/pytorch.svg" width="18" height="18" alt="" />&nbsp;PyTorch<br /><br /><img src="assets/icons/network.svg" width="18" height="18" alt="" />&nbsp;CNNs<br /><br /><img src="assets/icons/network.svg" width="18" height="18" alt="" />&nbsp;transfer&nbsp;learning<br /><br /><img src="assets/icons/network.svg" width="18" height="18" alt="" />&nbsp;self-attention<br /><br /><img src="assets/icons/network.svg" width="18" height="18" alt="" />&nbsp;BPE<br /><br /><img src="assets/icons/network.svg" width="18" height="18" alt="" />&nbsp;embeddings
 </td>
-<td width="25%" valign="top">
+<td width="25%" valign="top" nowrap>
 <img src="assets/icons/regression.svg" width="18" height="18" alt="" />&nbsp;Linear&nbsp;Regression<br /><br /><img src="assets/icons/logistic.svg" width="18" height="18" alt="" />&nbsp;Logistic&nbsp;Regression<br /><br /><img src="assets/icons/tree.svg" width="18" height="18" alt="" />&nbsp;Random&nbsp;Forest<br /><br /><img src="assets/icons/tree.svg" width="18" height="18" alt="" />&nbsp;XGBoost<br /><br /><img src="assets/icons/tree.svg" width="18" height="18" alt="" />&nbsp;LightGBM<br /><br /><img src="assets/icons/clustering.svg" width="18" height="18" alt="" />&nbsp;K-Means&nbsp;Clustering<br /><br /><img src="assets/icons/anomaly.svg" width="18" height="18" alt="" />&nbsp;Isolation&nbsp;Forest<br /><sub>Anomaly detection</sub><br /><br /><img src="assets/icons/scikitlearn.svg" width="18" height="18" alt="" />&nbsp;scikit-learn<br /><br /><img src="assets/icons/tuning.svg" width="18" height="18" alt="" />&nbsp;Optuna
 </td>
-<td width="25%" valign="top">
+<td width="25%" valign="top" nowrap>
 <img src="assets/icons/pandas.svg" width="18" height="18" alt="" />&nbsp;Pandas<br /><br /><img src="assets/icons/numpy.svg" width="18" height="18" alt="" />&nbsp;NumPy<br /><br /><img src="assets/icons/medical.svg" width="18" height="18" alt="" />&nbsp;pydicom<br /><br /><img src="assets/icons/features.svg" width="18" height="18" alt="" />&nbsp;feature&nbsp;engineering<br /><br /><img src="assets/icons/timeline.svg" width="18" height="18" alt="" />&nbsp;walk-forward&nbsp;evaluation
 </td>
-<td width="25%" valign="top">
+<td width="25%" valign="top" nowrap>
 <img src="assets/icons/python.svg" width="18" height="18" alt="" />&nbsp;Python<br /><br /><img src="assets/icons/fastapi.svg" width="18" height="18" alt="" />&nbsp;FastAPI<br /><br /><img src="assets/icons/sqlalchemy.svg" width="18" height="18" alt="" />&nbsp;SQLAlchemy<br /><br /><img src="assets/icons/database.svg" width="18" height="18" alt="" />&nbsp;SQL<br /><br /><img src="assets/icons/sqlite.svg" width="18" height="18" alt="" />&nbsp;SQLite<br /><br /><img src="assets/icons/docker.svg" width="18" height="18" alt="" />&nbsp;Docker<br /><br /><img src="assets/icons/azure.svg" width="18" height="18" alt="" />&nbsp;Azure<br /><br /><img src="assets/icons/git.svg" width="18" height="18" alt="" />&nbsp;Git<br /><br /><img src="assets/icons/claude.svg" width="18" height="18" alt="" />&nbsp;Claude&nbsp;Code
 </td>
 </tr></tbody>
